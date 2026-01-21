@@ -101,7 +101,7 @@ class GoogleSheetManager:
                 row_outside = [
                     client_data_outside.get("Name", client_data_inside.get("Name", "")),
                     client_data_outside.get("Email", client_data_inside.get("Email", "")), 
-                    client_data_outside.get("Investments", ""),
+                    client_data_outside.get("Investments", client_data_outside.get("Investment", "")),
                     client_data_outside.get("Gains", ""),
                     client_data_outside.get("Total", ""),
                     client_data_outside.get("Absolute", ""),
