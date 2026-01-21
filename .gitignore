@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+service_account.json
+Clients_Data.xlsx
+Clients_Data_Updated.xlsx
+.DS_Store
